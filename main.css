@@ -1,0 +1,46 @@
+body{
+    max-width: 80%;
+    font-family: Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    padding: 1rem;
+    margin: .5rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: none;
+    transition: all .3s ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+#rock{
+    background-color: red;
+}
+
+#paper{
+    background-color: green;
+}
+
+#scissors{
+    background-color: yellow;
+}
+
+#user-score{
+    color: rgb(60, 216, 251);
+}
+
+#computer-score{
+    color: rgb(60, 251, 111);
+}
